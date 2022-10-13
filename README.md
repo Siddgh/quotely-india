@@ -6,6 +6,9 @@
 
 Quotely India is like your very own personal Quote Book with all your favourite quotes from Indian Movies curated from your friendly neighbourhood Internet.
 
+Download The App here : https://play.google.com/store/apps/details?id=sid.com.quotelyindia
+
+---
 ### Explore
 
 There are more than 10,000+ quotes from Indian Movies further divided into different categories
