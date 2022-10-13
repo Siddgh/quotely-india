@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cl_quoteoftheweek"
+    android:clickable="true"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <TextView
+        android:id="@+id/tv_header_quoteoftheweek"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_condensed_bold"
+        android:text="@string/qotw_header"
+        android:textColor="@color/colorText"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_quoteoftheweek_quote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/arial"
+        android:text="@string/loading"
+        android:textColor="@color/colorText"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_header_quoteoftheweek" />
+
+    <ImageView
+        android:id="@+id/iv_quoteoftheweek_movie"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/content_description_icon"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/tv_quoteoftheweek_quote"
+        app:srcCompat="@drawable/ic_movie" />
+
+    <TextView
+        android:id="@+id/tv_quoteoftheweek_movie"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/arial"
+        android:text="@string/loading"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_quoteoftheweek_movie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_quoteoftheweek_movie"
+        app:layout_constraintTop_toBottomOf="@+id/tv_quoteoftheweek_quote" />
+
+    <ImageView
+        android:id="@+id/iv_quoteoftheweek_like"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/content_description_icon"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/iv_quoteoftheweek_movie"
+        app:srcCompat="@drawable/ic_fav_filled" />
+
+    <TextView
+        android:id="@+id/tv_quoteoftheweek_like"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="62dp"
+        android:fontFamily="@font/arial"
+        android:text="@string/loading"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_quoteoftheweek_like"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_quoteoftheweek_like"
+        app:layout_constraintTop_toBottomOf="@+id/tv_quoteoftheweek_movie" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_qotw_tags"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_quoteoftheweek_like" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

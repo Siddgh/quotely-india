@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <View
+        android:id="@+id/view_layout_quotes_list_indicator"
+        android:layout_width="8dp"
+        android:layout_height="0dp"
+        android:background="@color/colorAccent"
+        ads:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toEndOf="@+id/view_layout_quotes_list_indicator"
+        ads:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_layout_quotes_list_quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/arial"
+            android:text="@string/loading"
+            android:textColor="@color/colorText"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/iv_layout_quotes_list_from"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                ads:srcCompat="@drawable/ic_movie" />
+
+            <TextView
+                android:id="@+id/tv_layout_quotes_list_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:text="@string/loading"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/iv_layout_quotes_list_likes"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                ads:srcCompat="@drawable/ic_fav" />
+
+            <TextView
+                android:id="@+id/tv_layout_quotes_list_likes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:text="@string/loading"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="14sp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_layout_quotes_list_tag"
+                style="@style/CircularIndicatorCardView"
+                android:layout_marginStart="8dp"
+                android:contentDescription="@string/content_description_icon"
+                ads:cardBackgroundColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tv_layout_quotes_list_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:text="@string/loading"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

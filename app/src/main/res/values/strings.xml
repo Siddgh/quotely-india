@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Quotely India</string>
+
+    <string name="loading">loading&#8230;</string>
+
+    <!-- Hardcoded Entries-->
+    <string name="qotw_header">QUOTE HIGHLIGHT</string>
+    <string name="recently_added_header">Recently Added</string>
+    <string name="explore_added_header">Explore</string>
+    <string name="tags_added_header">Tags</string>
+    <string name="popular_quotes_header">Popular Text Quotes</string>
+    <string name="popular_quotes_card_header">Popular Quote Cards</string>
+    <string name="tags_list_header">Quotes by Category</string>
+    <string name="quote_card_tags_list_header">Quote Cards by Category</string>
+
+    <string name="more_header">MORE</string>
+    <string name="inframe_header">IN FRAME</string>
+
+
+    <string name="quotes_explore_section">Quotes</string>
+
+    <string name="movies_list_header">Movies</string>
+    <string name="movies_list_title">Listing Movies From </string>
+
+    <string name="widget_configuration_header">Widget Setup</string>
+    <string name="widget_configuration_shuffle_header">Shuffle</string>
+    <string name="widget_configuration_font_header">Font</string>
+    <string name="widget_configuration_text_properties_header">Text Properties</string>
+    <string name="widget_configuration_text_preview_header">Preview</string>
+    <string name="widget_configuration_text_bold">Bold</string>
+    <string name="widget_configuration_text_color">Text Color</string>
+    <string name="widget_configuration_text_all_caps">All Caps</string>
+    <string name="widget_configuration_text_font_arial">arial</string>
+
+    <string name="chip_title">title</string>
+    <string name="chip_year">year</string>
+
+    <string name="search_hint">Search&#8230;</string>
+    <string name="showing_movies_from">Showing Movies From</string>
+
+    <string name="released_on">RELEASED ON</string>
+
+    <string name="explore_quotes">Explore Quotes</string>
+    <string name="text_quotes">Text Quotes</string>
+    <string name="quote_cards">Quote Cards</string>
+
+    <string name="total_quotes_heading">Total Quotes</string>
+    <string name="browse_by_categories">Browse by Categories</string>
+
+    <string name="listing_all_quotes">Listing All Quotes</string>
+    <string name="listing_all_quotecards">Listing All Quotes Cards</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+
+    <string name="admob_banner_ad">Banner Ad</string>
+    <string name="admob_interstitial_ad">Interstitial Ad</string>
+
+    <string name="quotely_india_premium_in_app">quotely_india_premium</string>
+
+    <string name="app_shortcut_favourites_title">Favourites</string>
+    <string name="app_shortcut_favourites_id">favourites</string>
+    <string name="app_shortcut_text_quotes_title">Text Quotes</string>
+    <string name="app_shortcut_text_quotes_id">text-quotes</string>
+    <string name="app_shortcut_quote_card_title">Quote Cards</string>
+    <string name="app_shortcut_quote_card_id">quote-card</string>
+
+    <string name="notification_channel_id">notification-channel-id</string>
+
+    <string name="notification_topic">notification</string>
+
+
+    <string name="preimum_page_text_1">You can always support this app by going premium</string>
+    <string name="preimum_page_text_2">With Quotely India Premium, \n you can browse, explore and download your favourite quotes</string>
+    <string name="preimum_page_text_3">Completely Ad Free</string>
+    <string name="buy_premium">buy premium</string>
+
+    <string name="menu_explore">EXPLORE</string>
+    <string name="menu_go_premium">GO AD\'S FREE</string>
+    <string name="menu_premium">Premium</string>
+    <string name="menu_social">SOCIAL</string>
+    <string name="menu_social_instagram">Instagram</string>
+    <string name="menu_social_facebook">Facebook</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="settings_header">Settings</string>
+
+    <string name="is_paid">Is Paid</string>
+
+    <!-- Content Descriptions-->
+    <string name="content_description_icon">icon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Social Media Links -->
+    <string name="instagram_profile">http://instagram.com/_u/quotely_in</string>
+    <string name="instagram_package_name">com.instagram.android</string>
+    <string name="instagram_profile_web">http://instagram.com/quotely_in</string>
+    <string name="developerinfo_title">Developer</string>
+    <string name="developerinfo_aboutme_header">about me</string>
+    <string name="developerinfo_name">Siddhesh Dighe</string>
+    <string name="developerinfo_desc">
+        - Started out by writing Java Codes in Notepad and Executing them in Terminal.\n\n
+        - Got into Web Designing and Development while completing my Diploma and Bachelors in Computer Science.\n\n
+        - Fell in love with Android Application Development when I got my first Android Phone.\n\n
+        I\'ve worked on\n\n
+        1) Android Application Development\n
+        2) Web Development\n
+        3) Oracle | PLSQL\n
+        4) Unix Scripting\n
+        5) Firebase\n
+        6) Python\n
+        7) Spark\n
+        8) Big Data Techonologies\n
+        and many more
+    </string>
+    <string name="credits_libraries_used_desc">
+        1) Firebase UI Auth, Database, Firestore, Storage\n\n
+        2) Firebase Auth, Analytics, Database, Storage, Firestore, Messaging, Crashlytics\n\n
+        3) groupie by lisawray\n\n
+    </string>
+    <string name="design_credits_desc">
+        1) prettycons : About\n\n
+        2) Google : \nCopy, Like, Logout, Profile, Ratings, Search, Settings, Share\n\n
+        3) Freepik : \nCredits, Premium, Developer Information, Email\n\n
+        4) Pixel perfect : \nDownload, Frequently Asked Questions, Movie\n\n
+        5) Those Icons : Feedback\n\n
+        6) Kiranshastry : Delete\n\n
+        7) Instagram\n\n
+        8) LinkedIn\n\n
+        9) StackOverFlow\n\n
+    </string>
+    <string name="credits_movies">
+        Indian Cinema,\n\n
+        All the movies that I\'ve grown up watching. The ones that inspires, and gives hope to the people who watch them\n\n
+        This app would never exist without it\n\n
+        Thank you
+    </string>
+    <string name="credits_title">Credits</string>
+    <string name="credits_libraries_used_title">Libraries Used</string>
+    <string name="credits_designs_title">Icons and Logo Design\'s</string>
+    <string name="credits_movies_title">Last but not Least</string>
+    <string name="see_all_quotes_from_button_text">SEE ALL QUOTES FROM</string>
+
+    <string-array name="settings_titles">
+        <item>Rate The App</item>
+        <item>Feedback</item>
+        <item>Developer Information</item>
+        <item>Credits</item>
+        <item>Delete Account</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="settings_titles_desc">
+        <item>It would mean the world to me if you could spare sometime to rate the app on the Play Store</item>
+        <item>Feel free to write to me for any suggestions, replies, queries, feedback\'s, ideas</item>
+        <item>Connect on LinkedIn, StackOverFlow, Email</item>
+        <item>Credits to all the developers, designers and Indian Movies without whom this app wouldn\'t exists at all</item>
+        <item>Erase your Quotely Account Details</item>
+        <item>Version No: </item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "967760114279",
+    "firebase_url": "https://quotely-india-3fe34.firebaseio.com",
+    "project_id": "quotely-india-3fe34",
+    "storage_bucket": "quotely-india-3fe34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967760114279:android:7cb1ecd980215048b99ac2",
+        "android_client_info": {
+          "package_name": "sid.com.quotelyindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967760114279-lsi5794airqclpacjvqhaupubp1gvnm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA40AI7tzQQQMFJOeldcPqgkh1hj0KF80I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967760114279-lsi5794airqclpacjvqhaupubp1gvnm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

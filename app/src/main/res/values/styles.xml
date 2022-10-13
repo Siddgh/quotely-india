@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:scrollbarThumbVertical">@android:color/transparent</item>
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BottomNavigationTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="TextViewHeading">
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="SectionTitle">
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="BigTitles">
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="QuotesInfoTextView">
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+
+    <style name="QuotesInfoTextViewSmall" parent="QuotesInfoTextView">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="QuotesInfoTextViewMedium" parent="QuotesInfoTextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CircularIndicatorCardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+    </style>
+
+    <style name="CircularSaidByCardViewSmall">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="android:layout_width">18dp</item>
+        <item name="android:layout_height">18dp</item>
+    </style>
+
+    <style name="FABActions">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:clickable">true</item>
+
+    </style>
+
+    <style name="WidgetShuffleTitles">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/roboto_condensed_regular</item>
+        <item name="android:textAlignment">center</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FirebaseUITheme" parent="FirebaseUI">
+        <item name="colorPrimary">@color/colorLogoBackground</item>
+        <item name="colorPrimaryDark">@color/colorLogoBackground</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorLogoBackground</item>
+    </style>
+
+</resources>
